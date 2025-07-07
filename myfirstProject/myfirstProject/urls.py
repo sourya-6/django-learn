@@ -21,5 +21,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.home,name = 'home'),
     path('about/',views.about,name = 'about'),
-    path('sourya',include('sourya.urls'))
+    # path('services/',views.services,name = 'services'),
+    path('sourya',include('sourya.urls')),
+    
 ]

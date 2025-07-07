@@ -5,6 +5,9 @@
 {% block title %}
 Root Template 
 {% endblock %}
+{% if dp %}
+    <h2>Hey {{ dp }} these is the Home Page</h2>
+{% endif %}
 {% block content %}
 <h1>Hey These is the Content Writer Sourya</h1>
 {% endblock %}
